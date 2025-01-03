@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	maria "strings"
+)
 
 func main() {
 	fmt.Println("Hello, world!")
+
+	// string.Split()
+	fmt.Println(maria.Split("gato", ""))
 }
