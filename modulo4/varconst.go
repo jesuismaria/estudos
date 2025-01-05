@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func principal() {
+func main() {
 	// Variáveis
 	// var + nome da variavel + tipo
 	var nome string
