@@ -21,8 +21,45 @@ func main() {
 	// pega tudo depois da posição 1
 	fmt.Println(numPrimos[1:])
 
+	// Slices
+	// var slice []string
+	slice := make([]string, 5)
+	slice[0] = "Hello"
+	slice[1] = "World"
+	fmt.Println(slice[0], slice[1])
+	fmt.Println(slice)
+	
+	fmt.Println(len(slice))
+	// slices vazios
+	fmt.Println(slice[2])
+	fmt.Println(slice[3])
+	fmt.Println(slice[4])
+	//fmt.Println(slice[5]) -> não existe posição ainda
 
+	numPares := []int{2, 4, 6, 8, 10, 12}
+	fmt.Println(numPares)
 
+	// add elementos a lista
+	// OBS: pode add  mais de um item
+	numPares = append(numPares, 14)
+	fmt.Println(numPares)
+
+// LISTAS
+
+// 1 - Arrays e Slices: Homogêneos
+// todos os elementos tem o mesmo tipo
+// [1, 2, 3, 4, 5, 6] - int
+// ["steph", "bento","golang"] - string
+
+// 2 - Maps: Heterogêneos
+// pode misturar tipos 
+// estrutura chave - valor 
+// [key] = value 
+// chave tem um tipo, e o valor pode ter outro 
+// map[string]int 
+// { "steph": 28, "bento": 4}
+// map[string]string 
+// { "steph": "cardoso", "bento": "cardoso"}
 
 // Array
 
