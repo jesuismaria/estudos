@@ -13,6 +13,11 @@ type Pessoa struct {
 	Idade int
 }
 
+type Profissao struct {
+	Pessoa
+	Tipo string
+}
+
 func main() {
 	fmt.Println(Pessoa{"maria", 21})
 	// Mais aconselhável setar os campos
@@ -40,5 +45,13 @@ func main() {
 	var alunos = map[string][]Pessoa{
 		"Programação": {{Nome: "Maria", Idade: 21}}
 	}
+
+	// struct herdando campos de outra struct
+	prof := Profissao{p2, "dev"}
+	fmt.Println(prof)
+	fmt.Println(prof.Pessoa.Nome)
+	fmt.Println(prof.Pessoa.Idade)
+	fmt.Println(prof.Tipo)
+
 }
 //OBS: se voce criar uma struct e não setar todos os campos, retornará o zero value
