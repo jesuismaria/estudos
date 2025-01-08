@@ -12,3 +12,7 @@ func main() {
 		fmt.Println(num)
 	}
 }
+
+// Exercício "Return Negative" do site Codewars
+// indicado no curso de Go da Comuniade Dev Completo
+// by Steph Cardoso
