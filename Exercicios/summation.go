@@ -10,3 +10,7 @@ func main() {
 	}
 	fmt.Println(sum)
 }
+
+// Exercício "Grasshopper-Summation" do site Codewars
+// indicado no curso de Go da Comuniade Dev Completo
+// by Steph Cardoso
