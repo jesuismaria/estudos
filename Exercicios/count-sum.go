@@ -18,3 +18,7 @@ func main() {
 	result[1] = negatives
 	fmt.Println(result)
 }
+
+// Exercício "Count positives and sum negatives" do site Codewars
+// indicado no curso de Go da Comuniade Dev Completo
+// by Steph Cardoso
